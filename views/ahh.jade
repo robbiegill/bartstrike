@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  div.pure-g-r
+    div.pure-u-1.hero
+      div.hero
+        div.pure-u-3-4
+          crazy.crazy #{link.crazy}
+          p
+            a.pure-button.pure-button-blue(href='#{link.a}') #{link.title}
+        div.pure-u-3-4.strike
+          img(src='img/strike.png')

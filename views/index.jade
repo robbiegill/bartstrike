@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  div.content.pure-u-1-1
+    div.pure-g-r
+      div.pure-u-1-2
+        div.padded-block
+          h1 BART Strike!
+          p How are you going?
+          div.pure-menu.pure-menu-open.poll
+            ul
+              li
+                a(href='bus') I'm on a bus with #{on.bus} people
+                //a(href='http://temporaryterminal.org/find-your-bus-line') I'm on a bus with #{on.bus} people
+              li
+                a(href='boat') I'm on a boat with #{on.boat} people
+                //a(href='http://sanfranciscobayferry.com/') I'm on a boat with #{on.boat} people
+              li
+                a(href='car') I'm in a car with #{on.car} people
+                //a(href='http://511.org/') I'm in a car with #{on.car} people
+              li
+                a(href='train') I'm on a train with #{on.train} people
+                //a(href='http://www.caltrain.com/schedules/weekdaytimetable.html') I'm on a train with #{on.train} people
+              li
+                a(href='scooter') I'm on a scooter with #{on.scooter} people
+                //a(href='http://www.redbubble.com/people/vivendulies/works/9870782-bad-dude-on-a-scooter?p=sticker') I'm on a scooter with #{on.scooter} people
+              li
+                a(href='couch') I'm a Telecommuter with #{on.couch} people
+                //a(href='http://www.youtube.com/channel/HCtnHdj3df7iM') I'm a Telecommuter with #{on.couch} people
+      div.pure-u-1-2
+        div.padded-block
+          img(src='img/demands.png')

@@ -1,0 +1,28 @@
+/*.content {*/
+    /*background: rgba(45, 65, 65, 0.69);*/
+/*}*/
+
+.padded-block {
+    padding: 1.3em 1.3em 1.3em 1.5em;
+}
+
+.poll {
+    border: none !important;
+}
+
+.hero {
+    text-align: center;
+}
+
+.crazy {
+    color: rgb(183, 54, 22);
+    font-size: 400%;
+}
+
+a.pure-button-blue {
+    background: #1f8dd6;
+    color: white;
+    border: 1px solid #1f8dd6;
+    font-size: 150%;
+}
+
